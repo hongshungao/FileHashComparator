@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <sys:String x:Key="AppTitle">Сравнение хешей файлов</sys:String>
+    <sys:String x:Key="TabSingle">Один файл</sys:String>
+    <sys:String x:Key="TabBatch">Пакетное сравнение</sys:String>
+
+    <sys:String x:Key="LabelLanguage">Язык</sys:String>
+    <sys:String x:Key="LabelMode">Режим</sys:String>
+    <sys:String x:Key="LabelAlgorithm">Алгоритм</sys:String>
+    <sys:String x:Key="LabelFile">Файл</sys:String>
+    <sys:String x:Key="LabelFileA">Файл A</sys:String>
+    <sys:String x:Key="LabelFileB">Файл B</sys:String>
+    <sys:String x:Key="LabelExpectedHash">Ожидаемый хеш</sys:String>
+    <sys:String x:Key="LabelResults">Результаты</sys:String>
+    <sys:String x:Key="LabelHashA">Хеш A</sys:String>
+    <sys:String x:Key="LabelHashB">Хеш B</sys:String>
+    <sys:String x:Key="LabelStatus">Статус</sys:String>
+    <sys:String x:Key="LabelHashList">Список хешей</sys:String>
+    <sys:String x:Key="LabelHashListA">Список хешей A</sys:String>
+    <sys:String x:Key="LabelHashListB">Список хешей B</sys:String>
+    <sys:String x:Key="LabelRootFolder">Корневая папка</sys:String>
+    <sys:String x:Key="ModeFileVsExpected">Файл и ожидаемый хеш</sys:String>
+    <sys:String x:Key="ModeFileVsFile">Файл A и Файл B</sys:String>
+    <sys:String x:Key="ModeListVsFolder">Список хешей и папка</sys:String>
+    <sys:String x:Key="ModeListVsList">Список хешей и список хешей</sys:String>
+
+    <sys:String x:Key="ButtonBrowse">Обзор</sys:String>
+    <sys:String x:Key="ButtonCompute">Вычислить</sys:String>
+    <sys:String x:Key="ButtonCompare">Сравнить</sys:String>
+    <sys:String x:Key="ButtonCancel">Отмена</sys:String>
+    <sys:String x:Key="ButtonClear">Очистить</sys:String>
+
+    <sys:String x:Key="ColumnPath">Путь</sys:String>
+    <sys:String x:Key="ColumnExpectedHash">Ожидаемый хеш</sys:String>
+    <sys:String x:Key="ColumnActualHash">Фактический хеш</sys:String>
+    <sys:String x:Key="ColumnStatus">Статус</sys:String>
+
+    <sys:String x:Key="StatusMatch">Совпадает</sys:String>
+    <sys:String x:Key="StatusMismatch">Не совпадает</sys:String>
+    <sys:String x:Key="StatusMissing">Отсутствует</sys:String>
+    <sys:String x:Key="StatusExtra">Лишний</sys:String>
+    <sys:String x:Key="StatusUnreadable">Недоступен</sys:String>
+    <sys:String x:Key="StatusParseError">Ошибка разбора</sys:String>
+    <sys:String x:Key="StatusInvalidExpected">Некорректный хеш</sys:String>
+    <sys:String x:Key="StatusError">Ошибка</sys:String>
+    <sys:String x:Key="StatusComputed">Вычислено</sys:String>
+    <sys:String x:Key="StatusSkipped">Пропущено</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,59 @@
+<ui:FluentWindow x:Class="FileHashComparator.App.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+                 xmlns:views="clr-namespace:FileHashComparator.App.Views"
+                 mc:Ignorable="d"
+                 Title="{DynamicResource AppTitle}"
+                 ExtendsContentIntoTitleBar="True"
+                 Height="820"
+                 Width="1100"
+                 MinHeight="640"
+                 MinWidth="900">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ui:TitleBar Grid.Row="0"
+                     Margin="0,0,0,8"
+                     ShowMinimize="True"
+                     ShowMaximize="True"
+                     ShowClose="True">
+            <ui:TitleBar.Header>
+                <TextBlock Text="{DynamicResource AppTitle}"
+                           FontSize="18"
+                           FontWeight="SemiBold"
+                           VerticalAlignment="Center"
+                           Margin="12,0,0,0" />
+            </ui:TitleBar.Header>
+            <ui:TitleBar.TrailingContent>
+                <StackPanel Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            Margin="0,0,12,0">
+                    <TextBlock Text="{DynamicResource LabelLanguage}"
+                               VerticalAlignment="Center"
+                               Margin="0,0,8,0" />
+                    <ComboBox Width="160"
+                              ItemsSource="{Binding Languages}"
+                              SelectedItem="{Binding SelectedLanguage}"
+                              DisplayMemberPath="DisplayName" />
+                </StackPanel>
+            </ui:TitleBar.TrailingContent>
+        </ui:TitleBar>
+
+        <TabControl Grid.Row="1" Margin="12,0,12,12">
+            <TabItem Header="{DynamicResource TabSingle}">
+                <views:SingleCompareView DataContext="{Binding SingleCompare}" />
+            </TabItem>
+            <TabItem Header="{DynamicResource TabBatch}">
+                <views:BatchCompareView DataContext="{Binding BatchCompare}" />
+            </TabItem>
+        </TabControl>
+    </Grid>
+</ui:FluentWindow>
+
+
+

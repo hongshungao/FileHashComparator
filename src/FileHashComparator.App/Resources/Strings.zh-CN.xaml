@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <sys:String x:Key="AppTitle">文件哈希对比器</sys:String>
+    <sys:String x:Key="TabSingle">单文件对比</sys:String>
+    <sys:String x:Key="TabBatch">批量对比</sys:String>
+
+    <sys:String x:Key="LabelLanguage">语言</sys:String>
+    <sys:String x:Key="LabelMode">模式</sys:String>
+    <sys:String x:Key="LabelAlgorithm">算法</sys:String>
+    <sys:String x:Key="LabelFile">文件</sys:String>
+    <sys:String x:Key="LabelFileA">文件A</sys:String>
+    <sys:String x:Key="LabelFileB">文件B</sys:String>
+    <sys:String x:Key="LabelExpectedHash">期望哈希</sys:String>
+    <sys:String x:Key="LabelResults">结果</sys:String>
+    <sys:String x:Key="LabelHashA">哈希A</sys:String>
+    <sys:String x:Key="LabelHashB">哈希B</sys:String>
+    <sys:String x:Key="LabelStatus">状态</sys:String>
+    <sys:String x:Key="LabelHashList">哈希列表</sys:String>
+    <sys:String x:Key="LabelHashListA">哈希列表A</sys:String>
+    <sys:String x:Key="LabelHashListB">哈希列表B</sys:String>
+    <sys:String x:Key="LabelRootFolder">根目录</sys:String>
+    <sys:String x:Key="ModeFileVsExpected">文件 vs 期望哈希</sys:String>
+    <sys:String x:Key="ModeFileVsFile">文件A vs 文件B</sys:String>
+    <sys:String x:Key="ModeListVsFolder">哈希列表 vs 文件夹</sys:String>
+    <sys:String x:Key="ModeListVsList">哈希列表 vs 哈希列表</sys:String>
+
+    <sys:String x:Key="ButtonBrowse">浏览</sys:String>
+    <sys:String x:Key="ButtonCompute">计算</sys:String>
+    <sys:String x:Key="ButtonCompare">对比</sys:String>
+    <sys:String x:Key="ButtonCancel">取消</sys:String>
+    <sys:String x:Key="ButtonClear">清空</sys:String>
+
+    <sys:String x:Key="ColumnPath">路径</sys:String>
+    <sys:String x:Key="ColumnExpectedHash">期望哈希</sys:String>
+    <sys:String x:Key="ColumnActualHash">实际哈希</sys:String>
+    <sys:String x:Key="ColumnStatus">状态</sys:String>
+
+    <sys:String x:Key="StatusMatch">匹配</sys:String>
+    <sys:String x:Key="StatusMismatch">不匹配</sys:String>
+    <sys:String x:Key="StatusMissing">缺失</sys:String>
+    <sys:String x:Key="StatusExtra">多余</sys:String>
+    <sys:String x:Key="StatusUnreadable">无法读取</sys:String>
+    <sys:String x:Key="StatusParseError">解析错误</sys:String>
+    <sys:String x:Key="StatusInvalidExpected">期望哈希无效</sys:String>
+    <sys:String x:Key="StatusError">错误</sys:String>
+    <sys:String x:Key="StatusComputed">已计算</sys:String>
+    <sys:String x:Key="StatusSkipped">已跳过</sys:String>
+</ResourceDictionary>

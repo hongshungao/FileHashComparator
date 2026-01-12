@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <sys:String x:Key="AppTitle">File Hash Comparator</sys:String>
+    <sys:String x:Key="TabSingle">Single Compare</sys:String>
+    <sys:String x:Key="TabBatch">Batch Compare</sys:String>
+
+    <sys:String x:Key="LabelLanguage">Language</sys:String>
+    <sys:String x:Key="LabelMode">Mode</sys:String>
+    <sys:String x:Key="LabelAlgorithm">Algorithm</sys:String>
+    <sys:String x:Key="LabelFile">File</sys:String>
+    <sys:String x:Key="LabelFileA">File A</sys:String>
+    <sys:String x:Key="LabelFileB">File B</sys:String>
+    <sys:String x:Key="LabelExpectedHash">Expected Hash</sys:String>
+    <sys:String x:Key="LabelResults">Results</sys:String>
+    <sys:String x:Key="LabelHashA">Hash A</sys:String>
+    <sys:String x:Key="LabelHashB">Hash B</sys:String>
+    <sys:String x:Key="LabelStatus">Status</sys:String>
+    <sys:String x:Key="LabelHashList">Hash List</sys:String>
+    <sys:String x:Key="LabelHashListA">Hash List A</sys:String>
+    <sys:String x:Key="LabelHashListB">Hash List B</sys:String>
+    <sys:String x:Key="LabelRootFolder">Root Folder</sys:String>
+    <sys:String x:Key="ModeFileVsExpected">File vs Expected Hash</sys:String>
+    <sys:String x:Key="ModeFileVsFile">File A vs File B</sys:String>
+    <sys:String x:Key="ModeListVsFolder">Hash List vs Folder</sys:String>
+    <sys:String x:Key="ModeListVsList">Hash List vs Hash List</sys:String>
+
+    <sys:String x:Key="ButtonBrowse">Browse</sys:String>
+    <sys:String x:Key="ButtonCompute">Compute</sys:String>
+    <sys:String x:Key="ButtonCompare">Compare</sys:String>
+    <sys:String x:Key="ButtonCancel">Cancel</sys:String>
+    <sys:String x:Key="ButtonClear">Clear</sys:String>
+
+    <sys:String x:Key="ColumnPath">Path</sys:String>
+    <sys:String x:Key="ColumnExpectedHash">Expected Hash</sys:String>
+    <sys:String x:Key="ColumnActualHash">Actual Hash</sys:String>
+    <sys:String x:Key="ColumnStatus">Status</sys:String>
+
+    <sys:String x:Key="StatusMatch">Match</sys:String>
+    <sys:String x:Key="StatusMismatch">Mismatch</sys:String>
+    <sys:String x:Key="StatusMissing">Missing</sys:String>
+    <sys:String x:Key="StatusExtra">Extra</sys:String>
+    <sys:String x:Key="StatusUnreadable">Unreadable</sys:String>
+    <sys:String x:Key="StatusParseError">Parse Error</sys:String>
+    <sys:String x:Key="StatusInvalidExpected">Invalid Expected</sys:String>
+    <sys:String x:Key="StatusError">Error</sys:String>
+    <sys:String x:Key="StatusComputed">Computed</sys:String>
+    <sys:String x:Key="StatusSkipped">Skipped</sys:String>
+</ResourceDictionary>
